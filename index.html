@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' https://api.themoviedb.org">
+      <link rel="stylesheet" href="./style.css">
+      <title>Movie Recommendation & Search</title>
+   </head>
+   <body>
+     
+      <header>
+         <h1>Movie Recommendations</h1>
+      </header>
+      <div class="container">
+         <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search for movies...">
+            <button id="search-button">Search</button>
+         </div>
+         <h1>Recommaded Movies</h1>
+         <ul class="movie-list" id="movielist">
+            <!-- Movie items will be added here -->
+         </ul>
+      </div>
+      <footer>
+         <p>&copy; 2023 Movie Recommendation System</p>
+      </footer>
+      <script src="./script.js"></script>
+   </body>
+</html>
